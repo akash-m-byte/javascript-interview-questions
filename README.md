@@ -1,4 +1,4 @@
-# JavaScript Interview Preparation – Real World & Case Study Based
+# JavaScript Interview Questions – Real World & Case Study Based
 
 A comprehensive collection of 500+ JavaScript interview questions designed for senior engineers and interviewers. Each question includes real-world scenarios, case studies, and practical code examples.
 
