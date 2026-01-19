@@ -14,7 +14,7 @@
 - [Objects & Prototypes](#3-objects--prototypes) - Prototypal inheritance, Object.create, classes, this binding
 - [Functions & Higher-Order Functions](#4-functions--higher-order-functions) - HOFs, currying, composition, memoization
 
-### Asynchronous JavaScript
+### 5. Event Loop & Concurrency
 - [Event Loop & Concurrency](#5-event-loop--concurrency) - Event loop, microtasks, macrotasks, setTimeout
 - [Promises & Async/Await](#6-promises--asyncawait) - Promise.all, error handling, Promise chaining, async/await
 
@@ -60,7 +60,7 @@
 
 ---
 
-## Core JavaScript Fundamentals
+## 1. Core JavaScript Fundamentals
 
 ### Question 1: What happens when you compare `null` and `undefined` using `==` vs `===`?
 
@@ -1995,7 +1995,7 @@ function flattenDeep(arr) {
 
 ---
 
-## Promises & Async/Await
+## 6. Promises & Async/Await
 
 ### Question 36: What is the difference between `Promise.all`, `Promise.allSettled`, and `Promise.race`?
 
@@ -2329,7 +2329,7 @@ fetch('/api/data')
 
 ---
 
-## React & Frontend Frameworks
+## 9. React & Frontend Frameworks
 
 ### Question 41: How does React's virtual DOM work and why is it faster?
 
@@ -2969,7 +2969,7 @@ const ExpensiveChild = React.memo(
 
 ---
 
-## Node.js & Backend
+## 11. Node.js & Backend
 
 ### Question 51: What is the difference between `require` and `import` in Node.js?
 
@@ -3701,7 +3701,7 @@ function processData(data, callback) {
 
 ---
 
-## Performance & Optimization
+## 12. Performance & Optimization
 
 ### Question 61: How do you identify and fix performance bottlenecks in JavaScript?
 
@@ -3993,7 +3993,7 @@ const [user, posts, comments] = await Promise.all([
 
 ---
 
-## Security
+## 14. Security
 
 ### Question 66: What is XSS (Cross-Site Scripting) and how do you prevent it?
 
@@ -4321,7 +4321,7 @@ app.delete('/posts/:id', requireAuth, requireOwnership, (req, res) => {
 
 ---
 
-## Testing & Quality
+## 19. Testing & Quality
 
 ### Question 71: What is the difference between unit tests, integration tests, and E2E tests?
 
@@ -4506,7 +4506,7 @@ describe('calculateDiscount', () => {
 
 ---
 
-## TypeScript & Type Safety
+## 18. TypeScript & Type Safety
 
 ### Question 74: What are TypeScript interfaces and types, and when to use each?
 
@@ -4685,7 +4685,7 @@ const age = getProperty(user, 'age');   // TypeScript knows return type is numbe
 
 ---
 
-## DOM Manipulation
+## 10. DOM Manipulation
 
 ### Question 77: What is the difference between `innerHTML`, `textContent`, and `innerText`?
 
@@ -4798,7 +4798,7 @@ list.addEventListener('click', (e) => {
 
 ---
 
-## Memory Management
+## 13. Memory Management
 
 ### Question 79: What causes memory leaks in JavaScript and how to prevent them?
 
@@ -4938,7 +4938,7 @@ function processData(data) {
 
 ---
 
-## Design Patterns
+## 16. Design Patterns
 
 ### Question 81: What is the Singleton pattern and when should you use it?
 
@@ -6327,7 +6327,7 @@ obj = {};   // Error - can't reassign const
 
 ---
 
-## Modules & Bundlers
+## 17. Modules & Bundlers
 
 ### Question 101: What is the difference between CommonJS and ES6 modules?
 
@@ -6589,7 +6589,7 @@ module.exports = {
 
 ---
 
-## Error Handling & Debugging
+## 15. Error Handling & Debugging
 
 ### Question 106: How do you debug memory leaks in JavaScript?
 
@@ -6789,7 +6789,7 @@ module.exports = {
 
 ---
 
-## Additional Core JavaScript Questions
+## Additional Core JavaScript Questions (Consolidated into main sections above)
 
 ### Question 109: What is the difference between `Object.assign` and the spread operator?
 
@@ -6907,7 +6907,7 @@ emitter.emit('setup');  // Doesn't log (already removed)
 
 ---
 
-## More Core JavaScript Questions
+## More Core JavaScript Questions (Consolidated into main sections above)
 
 ### Question 111: What is the difference between `Array.from()` and the spread operator for converting array-like objects?
 
@@ -7625,7 +7625,7 @@ function findInsertionPoint(arr, target) {
 
 ---
 
-## More Interview Questions (121-500+)
+## 8. Essential Data Structures (Interview-Focused)
 
 ### Question 121: How do you implement a LRU (Least Recently Used) cache?
 
